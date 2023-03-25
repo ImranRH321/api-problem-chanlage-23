@@ -29,14 +29,6 @@ const person = {
   ],
 };
 
-// personName personName2 ageText street_home;
-function idSelectorRepeatText(idTag) {
-  const textTag = document.getElementById(idTag);
-  return idTag;
-}
-
-// console.log(person.result);
-
 const rowContainer = document.getElementById("rowContainer")
 person.result.forEach(ele => {
     const {name, address, age} = ele;
@@ -47,7 +39,8 @@ person.result.forEach(ele => {
     <p class="border fs-5 fw-bold">Age: ${age}</p>
     <p class="border fs-5 fw-bold">Street: ${address.street} <span>hours: ${address.house}</span></p>
     `;
-    console.log(ele);
+    // console.log(ele);
     rowContainer.appendChild(div)
 })
 
+// =======
