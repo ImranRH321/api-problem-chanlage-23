@@ -45,15 +45,13 @@ const data = [
 
 const rowContainer = document.getElementById("car_row_Container");
 data.forEach((ele) => {
-  console.log(ele);
   const { name, imageURL, description, price } = ele;
   const div = document.createElement("div");
   div.classList.add("col");
   div.innerHTML = `
     <div class="card">
   <img src=${
-    imageURL === null ? "Img not found please set image" : imageURL
-  }class="img-fluid" alt="...">
+    imageURL} class="img-fluid" alt="no found image">
   <div class="card-body">
     <h5 class="card-title">Person Name: ${name}</h5>
     <p class="card-text">${description}</p>
