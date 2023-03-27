@@ -30,8 +30,8 @@
     <!-- region container details loaded-->
     <section class="container text-center">
       <div
-        id="region_row_Container"
-        class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-2 g-4"
+        id="regionContainer"
+        class="row row-cols-1 row-cols-sm-2 row-cols-md-4 "
       >
     
     </div>
@@ -39,8 +39,8 @@
 
 
      <!-- filtering region country -->
-
-     <select  id="select_container" class="form-select w-25 my-4 mx-4 shadow-sm p-3 mb-5 bg-body-tertiary rounded fw-bold "  >
+     <!-- onchange="run()"  -->
+      <select onchange="clickItemVale()"    id="select_container" class="form-select w-25 my-4 mx-4 shadow-sm p-3 mb-5 bg-body-tertiary rounded fw-bold "  >
      <option selected disabled>Region by Filtering</option>
     </select>
 
