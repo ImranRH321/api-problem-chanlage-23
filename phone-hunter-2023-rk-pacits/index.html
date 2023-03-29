@@ -14,11 +14,7 @@
     />
 
     <title>best phone</title>
-    <style>
-      .active {
-        display:  none !important;
-      }
-    </style>
+    <style></style>
   </head>
   <body>
     <h1 class="fw-bold text-center bg-dark p-3 text-success sticky-top">
@@ -65,13 +61,36 @@
       <!-- showAll button  -->
       <div
         id="showAllButton"
-        class="mb-5 d-flex justify-content-center active align-item-center"
+        class="mb-5 d-flex justify-content-center d-none align-item-center"
       >
         <button type="button" class="btn fs-1 px-3 btn-lg btn-primary px-3">
           ShowAll
         </button>
       </div>
     </main>
+
+    <!-- Modal  -->
+<!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="phoneDetails" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 id="title" class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div id="modalBody" class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- Modal  -->
 
     <!-- bundle js  -->
     <script
