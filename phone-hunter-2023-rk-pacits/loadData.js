@@ -85,7 +85,6 @@ function displayDetailsIdLoadData(data) {
   const {
     brand,
     slug,
-    phone_name,
     image,
     name,
     releaseDate,
